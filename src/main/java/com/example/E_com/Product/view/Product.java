@@ -26,7 +26,7 @@ public class Product {
 
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
     private Date release_date;
-    private int quantity;
+    private Integer quantity;
 
     private String imagename;
     private String imagetype;
@@ -97,7 +97,7 @@ public class Product {
         return quantity;
     }
 
-    public void setQuantity(int quantity) {
+    public void setQuantity(Integer quantity) {
         this.quantity = quantity;
     }
 
