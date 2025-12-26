@@ -13,6 +13,7 @@ import java.util.Date;
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
+@Table(name="product")
 public class Product {
 
     @Id
